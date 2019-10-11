@@ -1,0 +1,61 @@
+{
+  "metadata_version": "1.1.10",
+  "id": "Sales",
+  "name": "Sales",
+  "custom": {
+    "hub": [
+      "id"
+    ],
+    "automatic": true,
+    "download_by": "sql",
+    "file_format": "GZIP",
+    "enclosed_by": "\"",
+    "escape_as": "\""
+  },
+  "fields": [
+    {
+      "id": "id",
+      "name": "id",
+      "order": "g1",
+      "type": "integer",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "source",
+      "name": "source",
+      "order": "g2",
+      "type": "string-255",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "amount",
+      "name": "amount",
+      "order": "g3",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "tax",
+      "name": "tax",
+      "order": "g4",
+      "type": "decimal-12-2",
+      "custom": {
+
+      },
+      "enabled": true
+    }
+  ],
+  "enabled": true,
+  "type": "input|output",
+  "dependent_on": null,
+  "version": "default"
+}

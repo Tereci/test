@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": ["type", "options"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["MsSql","MsSql2", "MySql", "PostgreSql"]
+    },
+    "full": {},
+    "options": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "number_of_entities_threads": {},
+        "number_of_schemas_threads": {},
+        "connection": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "server": {},
+            "database": {},
+            "username": {},
+            "password": {},
+            "default_start_date": {},
+            "schema": {},
+            "use_ssl": {},
+            "verify_server_certificate": {},
+            "fetch_size": {},
+            "schema_sql": {},
+            "connection_validation_timeout": {},
+            "log_connection_info": {}
+          }
+        }
+      }
+    }
+  }
+}

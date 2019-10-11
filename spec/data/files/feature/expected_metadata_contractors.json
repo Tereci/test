@@ -1,0 +1,81 @@
+{
+  "metadata_version": "1.1.10",
+  "id": "contractors",
+  "name": "contractors",
+  "custom": {
+    "hub": [
+      "id"
+    ],
+    "automatic": true,
+    "download_by": "sql",
+    "file_format": "GZIP",
+    "enclosed_by": "\"",
+    "escape_as": "\""
+  },
+  "fields": [
+    {
+      "id": "id",
+      "name": "id",
+      "order": "g1",
+      "type": "integer",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "name",
+      "name": "name",
+      "order": "g2",
+      "type": "string-50",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "age",
+      "name": "age",
+      "order": "g3",
+      "type": "integer",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "position",
+      "name": "position",
+      "order": "g4",
+      "type": "string-255",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "created_at",
+      "name": "created_at",
+      "order": "g5",
+      "type": "date-true",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "income",
+      "name": "income",
+      "order": "g6",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    }
+  ],
+  "enabled": true,
+  "type": "input|output",
+  "dependent_on": null,
+  "version": "default"
+}

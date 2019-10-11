@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Sales": {
+      "global": {
+        "custom": {
+          "hub": [
+            "id"
+          ]
+        }
+      }
+    },
+    "contractors": {
+      "global": {
+        "custom": {
+          "hub": [
+            "id"
+          ]
+        }
+      }
+    }
+  },
+  "downloaders": {
+    "sql_downloader_1": {
+      "type": "sql",
+      "entities": [
+        "Sales",
+        "contractors"
+      ]
+    }
+  },
+  "integrators": {
+  },
+  "sql": {
+    "type": "MySql",
+    "options": {
+      "connection":{
+        "server": "svs-82-mysql.cmklrh2wh3es.us-east-1.rds.amazonaws.com:3306",
+        "database": "gd_test",
+        "username": "gooddata"
+      }
+    }
+  }
+}

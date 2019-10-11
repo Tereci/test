@@ -1,0 +1,121 @@
+{
+  "metadata_version": "1.1.10",
+  "id": "Event",
+  "name": "Event",
+  "custom": {
+    "hub": [
+      "id"
+    ],
+    "automatic": true,
+    "download_by": "sql",
+    "file_format": "GZIP",
+    "enclosed_by": "\"",
+    "escape_as": "\""
+  },
+  "fields": [
+    {
+      "id": "id",
+      "name": "id",
+      "order": "g1",
+      "type": "integer",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "text",
+      "name": "text",
+      "order": "g2",
+      "type": "string-255",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "time",
+      "name": "time",
+      "order": "g3",
+      "type": "date-true",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column4",
+      "name": "column4",
+      "order": "g4",
+      "type": "string-50",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column5",
+      "name": "column5",
+      "order": "g5",
+      "type": "string-255",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column6",
+      "name": "column6",
+      "order": "g6",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column7",
+      "name": "column7",
+      "order": "g7",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column8",
+      "name": "column8",
+      "order": "g8",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column9",
+      "name": "column9",
+      "order": "g9",
+      "type": "time",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column10",
+      "name": "column10",
+      "order": "g10",
+      "type": "boolean",
+      "custom": {
+
+      },
+      "enabled": true
+    }
+  ],
+  "enabled": true,
+  "type": "input|output",
+  "dependent_on": null,
+  "version": "default"
+}

@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Event": {
+      "global": {
+        "custom": {
+          "hub": [
+            "id"
+          ]
+        }
+      }
+    }
+  },
+  "downloaders": {
+    "sql_downloader_1": {
+      "type": "sql",
+      "entities": [
+        "Event"
+      ]
+    }
+  },
+  "sql": {
+    "type": "MsSql2",
+    "options": {
+      "connection":{
+        "server": "svs-82-mssql.cmklrh2wh3es.us-east-1.rds.amazonaws.com:1433",
+        "database": "gd_test",
+        "username": "gooddata"
+      }
+    }
+  }
+}

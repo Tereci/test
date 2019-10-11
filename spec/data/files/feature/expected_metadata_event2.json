@@ -1,0 +1,101 @@
+{
+  "metadata_version": "1.1.10",
+  "id": "Event",
+  "name": "Event",
+  "custom": {
+    "hub": [
+      "id"
+    ],
+    "automatic": true,
+    "download_by": "sql",
+    "file_format": "GZIP",
+    "enclosed_by": "\"",
+    "escape_as": "\""
+  },
+  "fields": [
+    {
+      "id": "Column1",
+      "name": "Column1",
+      "order": "g1",
+      "type": "integer",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "tralala",
+      "name": "tralala",
+      "order": "g2",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "NewColumn1",
+      "name": "NewColumn1",
+      "order": "g3",
+      "type": "date-true",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "NewColumn2",
+      "name": "NewColumn2",
+      "order": "g4",
+      "type": "string-1",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column5",
+      "name": "column5",
+      "order": "g5",
+      "type": "string-30",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "column6",
+      "name": "column6",
+      "order": "g6",
+      "type": "string-255",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "NewColumn3",
+      "name": "NewColumn3",
+      "order": "g7",
+      "type": "decimal-16-4",
+      "custom": {
+
+      },
+      "enabled": true
+    },
+    {
+      "id": "NewColumn5",
+      "name": "NewColumn5",
+      "order": "g8",
+      "type": "decimal-23-4",
+      "custom": {
+
+      },
+      "enabled": true
+    }
+  ],
+  "enabled": true,
+  "type": "input|output",
+  "dependent_on": null,
+  "version": "default"
+}
