@@ -11,6 +11,7 @@ module GoodData
           attr_accessor :db
 
           def create_connection
+            $log.info @connection_options['con_string']
             @db = Sequel.connect(@connection_options['con_string'], user: @connection_options['username'], password: @connection_options['password'], selectMethod: 'cursor', packetSize: 0)
             @db.loggers << Logger.new($stdout)
           end
